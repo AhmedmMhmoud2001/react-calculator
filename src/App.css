@@ -27,6 +27,7 @@
   align-items: center;
   justify-content: flex-end;
   color: white;
+  text-align: right;
   font-weight: bold;
   box-sizing: border-box;
 }
@@ -59,18 +60,23 @@ Button:hover {
   background-color: #0f0;
   color: rgb(255, 255, 255);
   font-weight: bold;
+  font-size: 30px;
   cursor: pointer;
   border-radius: 10px;
   outline: none;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.equals:hover {
+  background-color: rgb(248, 204, 6);
 }
 .Reset{
   grid-column: 3 / 1;
   background-color: rgb(243, 61, 29);
   color: rgb(255, 255, 255);
   font-weight: bold;
+  font-size: 30px;
   cursor: pointer;
   border-radius: 10px;
   outline: none;
@@ -78,7 +84,6 @@ Button:hover {
   justify-content: center;
   align-items: center;
 }
-
-.equals:hover {
-  background-color: rgb(233, 200, 11);
+.Reset:hover {
+  background-color: rgb(248, 204, 6);
 }
