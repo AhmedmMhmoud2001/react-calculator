@@ -1,12 +1,15 @@
 import React from 'react';
-import { Textfit } from "react-textfit";
+// import { Textfit } from "react-textfit";
 
 const Screen = ({value}) => {
     return (
         <div >
-            <Textfit className="Screen" mode="single" max={60}>
+            {/* <Textfit className="Screen" mode="single" max={60}>
                 {value}
-           </Textfit>
+           </Textfit> */}
+           <div className="Screen">
+                {value}
+           </div>
         </div>
     );
 }
